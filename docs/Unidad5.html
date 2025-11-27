@@ -7476,70 +7476,122 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=402d2877">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cfbf0c63">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Gu%C3%ADa-para-An%C3%A1lisis-de-Herramientas-de-Miner%C3%ADa-de-Datos-y-Publicaci%C3%B3n-en-GitHub-Pages">Guía para Análisis de Herramientas de Minería de Datos y Publicación en GitHub Pages<a class="anchor-link" href="#Gu%C3%ADa-para-An%C3%A1lisis-de-Herramientas-de-Miner%C3%ADa-de-Datos-y-Publicaci%C3%B3n-en-GitHub-Pages">¶</a></h1><p>Este notebook es una guía para que desarrollen una comparación entre WEKA, KNIME, Orange y RapidMiner, creen un análisis de eficiencia y aprendan a publicar su trabajo en GitHub Pages.</p>
+<div align="center" style="font-family:'Verdana'; font-size:18px;">
+<p><img alt="Logo Universidad" src="./ImagenU.jpg"/></p>
+<p><strong>Mineria de Datos</strong></p>
+<p><strong>Docente</strong></p>
+<p><em>Jorge Ignacio Blanco</em></p>
+<p><strong>Integrantes</strong></p>
+<p><em>David Julian Hernández Ausique</em></p>
+<p>Actividad 5 - Colaborativa
+2025</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d0d5394a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="An%C3%A1lisis-de-Herramientas-de-Miner%C3%ADa-de-Datos">Análisis de Herramientas de Minería de Datos<a class="anchor-link" href="#An%C3%A1lisis-de-Herramientas-de-Miner%C3%ADa-de-Datos">¶</a></h1><p>Este notebook presenta una comparación entre WEKA, KNIME, Orange y RapidMiner con un análisis de eficiencia y ejemplos de casos reales en empresas a nivel mundial</p>
 <hr/>
 <hr/>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3d0e0304">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=18de17fe">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.-Objetivos-de-la-Actividad">1. Objetivos de la Actividad<a class="anchor-link" href="#1.-Objetivos-de-la-Actividad">¶</a></h2><ul>
-<li>Elaborar un cuadro comparativo de herramientas de minería de datos.</li>
-<li>Crear un análisis de eficiencia.</li>
-<li>Asociar cada herramienta con 5 empresas reales.</li>
-<li>Publicar el contenido en una página web usando GitHub Pages.</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=54fa13ac">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2.-Cuadro-Comparativo-de-Herramientas">2. Cuadro Comparativo de Herramientas<a class="anchor-link" href="#2.-Cuadro-Comparativo-de-Herramientas">¶</a></h2><p>Ejemplo de criterios para la tabla:</p>
+<h2 id="1.-Cuadro-Comparativo-de-Herramientas">1. Cuadro Comparativo de Herramientas<a class="anchor-link" href="#1.-Cuadro-Comparativo-de-Herramientas">¶</a></h2><p>Criterios para la tabla:</p>
 <ul>
+<li>Curva de Apredizaje</li>
 <li>Licencia</li>
 <li>Facilidad de uso</li>
 <li>Funciones principales</li>
 <li>Ventajas y desventajas</li>
-<li>Usuarios ideales</li>
 </ul>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=19637806">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4adfd2b6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
 <span class="n">herramientas</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
     <span class="s1">'Herramienta'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'WEKA'</span><span class="p">,</span><span class="s1">'KNIME'</span><span class="p">,</span><span class="s1">'Orange'</span><span class="p">,</span><span class="s1">'RapidMiner'</span><span class="p">],</span>
-    <span class="s1">'Licencia'</span><span class="p">:</span> <span class="p">[</span><span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">],</span>
-    <span class="s1">'Facilidad de uso'</span><span class="p">:</span> <span class="p">[</span><span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">],</span>
-    <span class="s1">'Funciones principales'</span><span class="p">:</span> <span class="p">[</span><span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">],</span>
-    <span class="s1">'Ventajas'</span><span class="p">:</span> <span class="p">[</span><span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">],</span>
-    <span class="s1">'Desventajas'</span><span class="p">:</span> <span class="p">[</span><span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="s1">''</span><span class="p">]</span>
+
+    <span class="s1">'Curva de aprendizaje'</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s1">'Sencilla para principiantes; interfaz Explorer intuitiva y muy usada en docencia.'</span><span class="p">,</span>
+        <span class="s1">'Muy amigable para usuarios de negocio mediante flujos visuales (workflows).'</span><span class="p">,</span>
+        <span class="s1">'Muy intuitiva, basada en widgets; ideal para usuarios con poca experiencia.'</span><span class="p">,</span>
+        <span class="s1">'Curva media; GUI potente con operadores y Auto Model para acelerar el aprendizaje.'</span>
+    <span class="p">],</span>
+
+    <span class="s1">'Licencia'</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s1">'Código abierto (GPL).'</span><span class="p">,</span>
+        <span class="s1">'Código abierto; versión empresarial mediante KNIME Server.'</span><span class="p">,</span>
+        <span class="s1">'Código abierto (GPL).'</span><span class="p">,</span>
+        <span class="s1">'Código abierto (núcleo) con componentes comerciales y servidor empresarial.'</span>
+    <span class="p">],</span>
+
+    <span class="s1">'Facilidad de uso'</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s1">'Alta: entorno simple, menús claros, excelente para experimentación rápida.'</span><span class="p">,</span>
+        <span class="s1">'Alta: interfaz visual de nodos; facilita reproducir y documentar procesos.'</span><span class="p">,</span>
+        <span class="s1">'Alta: enfoque visual e interactivo; excelente para visualizar procesos paso a paso.'</span><span class="p">,</span>
+        <span class="s1">'Alta: entorno gráfico profesional; permite diseño de procesos analíticos robustos.'</span>
+    <span class="p">],</span>
+
+    <span class="s1">'Funciones principales'</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s1">'Clasificación, regresión, clustering, selección de atributos, reglas de asociación, visualización básica.'</span><span class="p">,</span>
+        <span class="s1">'Lectura, limpieza, transformación, minería de datos, modelado, validación, despliegue y automatización.'</span><span class="p">,</span>
+        <span class="s1">'Carga de datos, transformación, visualización interactiva, modelado clásico, evaluación.'</span><span class="p">,</span>
+        <span class="s1">'Preparación de datos, modelado avanzado, validación, automatización, integración con Hadoop y demás.'</span>
+    <span class="p">],</span>
+
+    <span class="s1">'Ventajas'</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s1">'Ligero, rápido de aprender, ideal para enseñanza y prototipado; gran cantidad de algoritmos clásicos integrados.'</span><span class="p">,</span>
+        <span class="s1">'Muy escalable; excelente para flujos productivos; amplia integración con bases de datos y APIs.'</span><span class="p">,</span>
+        <span class="s1">'Visualizaciones muy potentes; extremadamente intuitivo; ideal para prototipado y análisis exploratorio.'</span><span class="p">,</span>
+        <span class="s1">'Fuerte en automatización, despliegue empresarial y comparación de modelos; integración avanzada con Big Data.'</span>
+    <span class="p">],</span>
+
+    <span class="s1">'Desventajas'</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s1">'No está orientado a grandes volúmenes de datos; capacidades de integración limitadas.'</span><span class="p">,</span>
+        <span class="s1">'Requiere KNIME Server para capacidades empresariales completas; puede ser pesado en recursos.'</span><span class="p">,</span>
+        <span class="s1">'No está orientado a despliegue empresarial; depende de Python para procesos avanzados.'</span><span class="p">,</span>
+        <span class="s1">'Algunas funcionalidades avanzadas requieren versiones comerciales; puede ser más complejo al inicio.'</span>
+    <span class="p">]</span>
 <span class="p">})</span>
+
 <span class="n">herramientas</span>
+<span class="n">herramientas</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">set_table_styles</span><span class="p">([</span>
+    <span class="p">{</span><span class="s1">'selector'</span><span class="p">:</span> <span class="s1">'th'</span><span class="p">,</span> <span class="s1">'props'</span><span class="p">:</span> <span class="p">[(</span><span class="s1">'background-color'</span><span class="p">,</span> <span class="s1">'#333'</span><span class="p">),</span>
+                                <span class="p">(</span><span class="s1">'color'</span><span class="p">,</span> <span class="s1">'white'</span><span class="p">),</span>
+                                <span class="p">(</span><span class="s1">'font-size'</span><span class="p">,</span> <span class="s1">'14px'</span><span class="p">),</span>
+                                <span class="p">(</span><span class="s1">'padding'</span><span class="p">,</span> <span class="s1">'8px'</span><span class="p">)]},</span>
+    <span class="p">{</span><span class="s1">'selector'</span><span class="p">:</span> <span class="s1">'td'</span><span class="p">,</span> <span class="s1">'props'</span><span class="p">:</span> <span class="p">[(</span><span class="s1">'padding'</span><span class="p">,</span> <span class="s1">'6px'</span><span class="p">),</span>
+                                <span class="p">(</span><span class="s1">'font-size'</span><span class="p">,</span> <span class="s1">'12px'</span><span class="p">),</span>
+                                <span class="p">(</span><span class="s1">'text-align'</span><span class="p">,</span> <span class="s1">'left'</span><span class="p">),</span>
+                                <span class="p">(</span><span class="s1">'border'</span><span class="p">,</span> <span class="s1">'1px solid #ccc'</span><span class="p">)]}</span>
+<span class="p">])</span>
 </pre></div>
 </div>
 </div>
@@ -7550,70 +7602,75 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[1]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
+<style type="text/css">
+#T_e1020 th {
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+}
+#T_e1020 td {
+  padding: 6px;
+  font-size: 12px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
 </style>
-<table border="1" class="dataframe">
+<table id="T_e1020">
 <thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Herramienta</th>
-<th>Licencia</th>
-<th>Facilidad de uso</th>
-<th>Funciones principales</th>
-<th>Ventajas</th>
-<th>Desventajas</th>
+<tr>
+<th class="blank level0"> </th>
+<th class="col_heading level0 col0" id="T_e1020_level0_col0">Herramienta</th>
+<th class="col_heading level0 col1" id="T_e1020_level0_col1">Curva de aprendizaje</th>
+<th class="col_heading level0 col2" id="T_e1020_level0_col2">Licencia</th>
+<th class="col_heading level0 col3" id="T_e1020_level0_col3">Facilidad de uso</th>
+<th class="col_heading level0 col4" id="T_e1020_level0_col4">Funciones principales</th>
+<th class="col_heading level0 col5" id="T_e1020_level0_col5">Ventajas</th>
+<th class="col_heading level0 col6" id="T_e1020_level0_col6">Desventajas</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<th>0</th>
-<td>WEKA</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<th class="row_heading level0 row0" id="T_e1020_level0_row0">0</th>
+<td class="data row0 col0" id="T_e1020_row0_col0">WEKA</td>
+<td class="data row0 col1" id="T_e1020_row0_col1">Sencilla para principiantes; interfaz Explorer intuitiva y muy usada en docencia.</td>
+<td class="data row0 col2" id="T_e1020_row0_col2">Código abierto (GPL).</td>
+<td class="data row0 col3" id="T_e1020_row0_col3">Alta: entorno simple, menús claros, excelente para experimentación rápida.</td>
+<td class="data row0 col4" id="T_e1020_row0_col4">Clasificación, regresión, clustering, selección de atributos, reglas de asociación, visualización básica.</td>
+<td class="data row0 col5" id="T_e1020_row0_col5">Ligero, rápido de aprender, ideal para enseñanza y prototipado; gran cantidad de algoritmos clásicos integrados.</td>
+<td class="data row0 col6" id="T_e1020_row0_col6">No está orientado a grandes volúmenes de datos; capacidades de integración limitadas.</td>
 </tr>
 <tr>
-<th>1</th>
-<td>KNIME</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<th class="row_heading level0 row1" id="T_e1020_level0_row1">1</th>
+<td class="data row1 col0" id="T_e1020_row1_col0">KNIME</td>
+<td class="data row1 col1" id="T_e1020_row1_col1">Muy amigable para usuarios de negocio mediante flujos visuales (workflows).</td>
+<td class="data row1 col2" id="T_e1020_row1_col2">Código abierto; versión empresarial mediante KNIME Server.</td>
+<td class="data row1 col3" id="T_e1020_row1_col3">Alta: interfaz visual de nodos; facilita reproducir y documentar procesos.</td>
+<td class="data row1 col4" id="T_e1020_row1_col4">Lectura, limpieza, transformación, minería de datos, modelado, validación, despliegue y automatización.</td>
+<td class="data row1 col5" id="T_e1020_row1_col5">Muy escalable; excelente para flujos productivos; amplia integración con bases de datos y APIs.</td>
+<td class="data row1 col6" id="T_e1020_row1_col6">Requiere KNIME Server para capacidades empresariales completas; puede ser pesado en recursos.</td>
 </tr>
 <tr>
-<th>2</th>
-<td>Orange</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<th class="row_heading level0 row2" id="T_e1020_level0_row2">2</th>
+<td class="data row2 col0" id="T_e1020_row2_col0">Orange</td>
+<td class="data row2 col1" id="T_e1020_row2_col1">Muy intuitiva, basada en widgets; ideal para usuarios con poca experiencia.</td>
+<td class="data row2 col2" id="T_e1020_row2_col2">Código abierto (GPL).</td>
+<td class="data row2 col3" id="T_e1020_row2_col3">Alta: enfoque visual e interactivo; excelente para visualizar procesos paso a paso.</td>
+<td class="data row2 col4" id="T_e1020_row2_col4">Carga de datos, transformación, visualización interactiva, modelado clásico, evaluación.</td>
+<td class="data row2 col5" id="T_e1020_row2_col5">Visualizaciones muy potentes; extremadamente intuitivo; ideal para prototipado y análisis exploratorio.</td>
+<td class="data row2 col6" id="T_e1020_row2_col6">No está orientado a despliegue empresarial; depende de Python para procesos avanzados.</td>
 </tr>
 <tr>
-<th>3</th>
-<td>RapidMiner</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<th class="row_heading level0 row3" id="T_e1020_level0_row3">3</th>
+<td class="data row3 col0" id="T_e1020_row3_col0">RapidMiner</td>
+<td class="data row3 col1" id="T_e1020_row3_col1">Curva media; GUI potente con operadores y Auto Model para acelerar el aprendizaje.</td>
+<td class="data row3 col2" id="T_e1020_row3_col2">Código abierto (núcleo) con componentes comerciales y servidor empresarial.</td>
+<td class="data row3 col3" id="T_e1020_row3_col3">Alta: entorno gráfico profesional; permite diseño de procesos analíticos robustos.</td>
+<td class="data row3 col4" id="T_e1020_row3_col4">Preparación de datos, modelado avanzado, validación, automatización, integración con Hadoop y demás.</td>
+<td class="data row3 col5" id="T_e1020_row3_col5">Fuerte en automatización, despliegue empresarial y comparación de modelos; integración avanzada con Big Data.</td>
+<td class="data row3 col6" id="T_e1020_row3_col6">Algunas funcionalidades avanzadas requieren versiones comerciales; puede ser más complejo al inicio.</td>
 </tr>
 </tbody>
 </table>
@@ -7622,114 +7679,295 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1fe59215">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=88d488e0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="3.-An%C3%A1lisis-de-Eficiencia">3. Análisis de Eficiencia<a class="anchor-link" href="#3.-An%C3%A1lisis-de-Eficiencia">¶</a></h2><p>Redacte aquí un análisis que compare el rendimiento, facilidad y aplicabilidad de cada herramienta según el caso de uso.</p>
+<h2 id="2.-An%C3%A1lisis-de-Eficiencia">2. Análisis de Eficiencia<a class="anchor-link" href="#2.-An%C3%A1lisis-de-Eficiencia">¶</a></h2><p>Más eficientes para experimentación rápida/educación: WEKA y Orange.</p>
+<p>Más eficientes para despliegue empresarial, escala y automatización: KNIME y RapidMiner (KNIME especialmente fuerte en democratización y pipelines reproducibles; RapidMiner fuerte en automatización y casos empresariales).</p>
+<p>Recomendaciones prácticas (para elegir según eficiencia y uso real):</p>
+<p>Si tu objetivo es aprender y prototipar rápidamente y estás en docencia o proyectos académicos: WEKA o Orange son opciones excelentes (rápido feedback, GUI sencilla).
+Orange Data Mining</p>
+<p>Si necesitas llevar modelos a producción, escalar o democratizar la analítica en la organización: KNIME o RapidMiner serán más eficientes (ambos tienen casos corporativos y capacidades para despliegue/automación). KNIME destaca en democratización y workflows reutilizables; RapidMiner destaca en automatización de ML y casos empresariales.</p>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ae5b80dd">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2249fa52">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="4.-Empresas-que-Usan-Cada-Herramienta">4. Empresas que Usan Cada Herramienta<a class="anchor-link" href="#4.-Empresas-que-Usan-Cada-Herramienta">¶</a></h2><p>Complete con cinco empresas para cada herramienta y su respectivo caso de uso.</p>
+<h2 id="3.-Empresas-que-Usan-Cada-Herramienta">3. Empresas que Usan Cada Herramienta<a class="anchor-link" href="#3.-Empresas-que-Usan-Cada-Herramienta">¶</a></h2>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7a949417">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=11821436">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="5.-Relaci%C3%B3n-con-CRISP-DM">5. Relación con CRISP-DM<a class="anchor-link" href="#5.-Relaci%C3%B3n-con-CRISP-DM">¶</a></h2><p>Explique cómo usar cada herramienta en cada etapa del modelo CRISP-DM.</p>
+<h3 id="3.1-WEKA-(Waikato)">3.1 WEKA (Waikato)<a class="anchor-link" href="#3.1-WEKA-(Waikato)">¶</a></h3><p>Nota: WEKA (la herramienta académica de Waikato) se usa muchísimo en investigación, universidades y proyectos de POC; la evidencia de uso corporativo a gran escala es menor en la web comparado con KNIME/RapidMiner, pero existen casos y estudios aplicados en empresas y sectores (telecom, banca, salud). Fuentes: papers y páginas técnicas.</p>
+<p>Hrvatski Telekom (Croatia) — caso académico / aplicación en credit scoring (publicado en artículos que aplican WEKA en datos reales).
+ojs.srce.hr</p>
+<p>Varias entidades bancarias / proyectos de credit scoring — referencias académicas que usan WEKA para modelos de scoring (ej.: estudios con German credit dataset).
+econstor.eu
++1</p>
+<p>Hospitales / centros de salud (proyectos de diagnóstico) — estudios de minería de datos aplicados a conjuntos de pacientes usando WEKA. (ej.: trabajos universitarios que implementan WEKA sobre datos clínicos).
+pure.solent.ac.uk
++1</p>
+<p>Consultoras / equipos analíticos (ej. EPAM, según listados de adopción tecnológica que registran uso de WEKA en su stack).
+enlyft.com</p>
+<p>Universidades / laboratorios aplicados a la industria (proyectos conjuntos con empresas para análisis de datos usando WEKA; múltiples papers y reportes muestran estos vínculos).
+ResearchGate
++1</p>
+<p>Importante: para WEKA hay abundante evidencia en papers / proyectos concretos; si necesitas 5 corporaciones globales con case-studies oficiales (tipo "cliente X usa WEKA en producción") la documentación pública es limitada — WEKA brilla en investigación y POCs. Si quieres, busco casos corporativos adicionales y te los documento.</p>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e8419ade">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2431e70b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Publicaci%C3%B3n-en-GitHub-Pages">Publicación en GitHub Pages<a class="anchor-link" href="#Publicaci%C3%B3n-en-GitHub-Pages">¶</a></h1><p>A continuación se explica el proceso para publicar este notebook como página web usando GitHub Pages.</p>
+<h3 id="3.2-KNIME">3.2 KNIME<a class="anchor-link" href="#3.2-KNIME">¶</a></h3><p>KNIME publica casos de éxito corporativos y tiene amplia adopción en empresas para pipelines, democratización del análisis y producción. Ejemplos con páginas oficiales / success stories:</p>
+<p>Yamaha — programa masivo de upskilling y uso de KNIME en múltiples equipos (case study).
+KNIME</p>
+<p>Seagate — uso de KNIME para upskilling y workflows productivos.
+KNIME
++1</p>
+<p>Siemens — automatización de procesos analíticos con KNIME; casos de uso corporativo (Data Visions).
+KNIME
++1</p>
+<p>Alexion (pharma / Life Sciences) — uso para acelerar diagnósticos / R&amp;D (KNIME success story).
+KNIME</p>
+<p>Continental — roll-out global para analytics y democratización del uso de datos (success story).
+KNIME</p>
+<p>—&gt; KNIME es especialmente eficiente en empresas grandes donde se busca democratizar la analítica y convertir usuarios de negocio en "citizen data scientists".</p>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bcb4a45f">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6496a2d7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Paso-1:-Crear-un-repositorio-en-GitHub">Paso 1: Crear un repositorio en GitHub<a class="anchor-link" href="#Paso-1:-Crear-un-repositorio-en-GitHub">¶</a></h2><ol>
-<li>Ingrese a <a href="https://github.com">https://github.com</a></li>
-<li>Haga clic en <strong>New Repository</strong></li>
-<li>Asigne un nombre (ej. <em>analitica-mineria</em>)</li>
-<li>Marque la opción <strong>Public</strong></li>
-<li>Cree el repositorio</li>
-</ol>
+<h3 id="3.3-Orange-(Orange-Data-Mining---the-tool)">3.3 Orange (Orange Data Mining - the tool)<a class="anchor-link" href="#3.3-Orange-(Orange-Data-Mining---the-tool)">¶</a></h3><p>Orange está fuertemente presente en la academia, en talleres industriales y en prototipos; hay casos de uso y workshops con empresas.</p>
+<p>Wärtsilä — workshop / colaboración (Orange blog documenta un taller con Wärtsilä).
+Orange Data Mining</p>
+<p>Empresas / hospitales en proyectos de análisis — artículos académicos muestran uso de Orange en análisis clínicos y hospitalarios (ej.: estudios de diagnóstico donde el equipo usó Orange).
+ResearchGate
++1</p>
+<p>Organizaciones de formación / consultoría — Orange es usado en talleres con organizaciones locales (evidencia en posts del blog de Orange mostrando workshops con empresas y escuelas).
+Orange Data Mining
++1</p>
+<p>Proyectos de investigación aplicada (varios laboratorios / institutos) — publicaciones que usan Orange para análisis científico y de ingeniería.
+onlinelibrary.wiley.com
++1</p>
+<p>Pequeñas y medianas empresas / equipos de Data Science que requieren prototipado visual — evidenciado por posts y tutoriales que muestran adopción en empresas para prototipos (e.g., casos publicados en blogs y tutoriales).
+Medium
++1</p>
+<p>Nota: Orange es muy fuerte en prototipado, enseñanza y proyectos piloto.</p>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1a3caeba">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=54ad1378">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Paso-2:-Subir-el-Notebook">Paso 2: Subir el Notebook<a class="anchor-link" href="#Paso-2:-Subir-el-Notebook">¶</a></h2><ol>
-<li>En el repositorio, haga clic en <strong>Add file → Upload files</strong></li>
-<li>Cargue el archivo <code>.ipynb</code></li>
-<li>Confirme con <strong>Commit changes</strong></li>
-</ol>
+<h3 id="3.4-RapidMiner-(ahora-parte-de-Altair/Altair-RapidMiner)">3.4 RapidMiner (ahora parte de Altair/Altair RapidMiner)<a class="anchor-link" href="#3.4-RapidMiner-(ahora-parte-de-Altair/Altair-RapidMiner)">¶</a></h3><p>RapidMiner tiene varios casos corporativos publicados y listado de clientes; es habitual en banca, retail y manufactura.</p>
+<p>PayPal — caso de uso para análisis de sentimiento y detección de churn (caso RapidMiner / PayPal).
+ResearchGate
++1</p>
+<p>Pepsi — mencionado como cliente en notas de prensa de RapidMiner / cobertura.
+benzinga.com</p>
+<p>Siemens — citado entre empresas que han trabajado con RapidMiner (prensa/analíticas).
+benzinga.com</p>
+<p>Volkswagen — citado como cliente histórico en cobertura de RapidMiner.
+benzinga.com</p>
+<p>Telenor — citado entre clientes empresariales de RapidMiner (prensa/notes).
+benzinga.com</p>
+<p>RapidMiner es eficiente en proyectos empresariales reales especialmente en: análisis de clientes, detección de fraude, churn, text mining y scoring. Tiene buena trayectoria en implementación industrial y casos con ROI demostrable.</p>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d90b60ba">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=579cc944">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Paso-3:-Activar-GitHub-Pages">Paso 3: Activar GitHub Pages<a class="anchor-link" href="#Paso-3:-Activar-GitHub-Pages">¶</a></h2><ol>
-<li>Entre en <strong>Settings</strong> del repositorio</li>
-<li>En el menú lateral seleccione <strong>Pages</strong></li>
-<li>En <em>Source</em>, seleccione <strong>GitHubActions</strong></li>
-<li>Guarde.
-Tras unos segundos GitHub mostrará la URL pública del sitio.</li>
-</ol>
+<h2 id="4.-Relaci%C3%B3n-con-CRISP-DM">4. Relación con CRISP-DM<a class="anchor-link" href="#4.-Relaci%C3%B3n-con-CRISP-DM">¶</a></h2>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=05f22812">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=49b16702">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Paso-4:-Convertir-el-Notebook-a-HTML-(si-lo-desea)">Paso 4: Convertir el Notebook a HTML (si lo desea)<a class="anchor-link" href="#Paso-4:-Convertir-el-Notebook-a-HTML-(si-lo-desea)">¶</a></h2><p>Puede convertir el notebook a HTML ejecutando:</p>
-<div class="highlight"><pre><span></span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span>nombre_notebook.ipynb
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="n">crisp_dm</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">'Herramienta'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'WEKA'</span><span class="p">,</span><span class="s1">'KNIME'</span><span class="p">,</span><span class="s1">'Orange'</span><span class="p">,</span><span class="s1">'RapidMiner'</span><span class="p">],</span>
+
+    <span class="s1">'Comprensión del negocio'</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s1">'Limitado; no posee herramientas de documentación ni flujos empresariales. Útil solo para revisar variables iniciales.'</span><span class="p">,</span>
+        <span class="s1">'Muy bueno; permite documentar procesos, anotar flujos, conectar con bases empresariales y entender el contexto del negocio.'</span><span class="p">,</span>
+        <span class="s1">'Bueno; visualizaciones simples que ayudan a presentar el problema, aunque no es empresarial.'</span><span class="p">,</span>
+        <span class="s1">'Muy bueno; Auto Model, KPIs, análisis rápido del problema y comunicación clara para usuarios no técnicos.'</span>
+    <span class="p">],</span>
+
+    <span class="s1">'Comprensión de los datos'</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s1">'Exploración básica en Explorer/Preprocess: atributos, valores faltantes, distribuciones.'</span><span class="p">,</span>
+        <span class="s1">'Excelente; estadísticas detalladas, correlaciones, Data Explorer y soporte para múltiples fuentes.'</span><span class="p">,</span>
+        <span class="s1">'Muy fuerte en visualización interactiva: distribuciones, boxplots, scatterplots.'</span><span class="p">,</span>
+        <span class="s1">'Completo; operadores para estadística, calidad de datos, correlaciones y exploración profunda.'</span>
+    <span class="p">],</span>
+
+    <span class="s1">'Preparación de los datos'</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s1">'Filtros básicos: normalizar, discretizar, imputar valores, remover atributos.'</span><span class="p">,</span>
+        <span class="s1">'Muy completo; limpieza, transformación, unión, manejo de fechas, strings y pipelines reproducibles.'</span><span class="p">,</span>
+        <span class="s1">'Intuitivo; widgets para imputación, discretización, selección de columnas y transformaciones.'</span><span class="p">,</span>
+        <span class="s1">'Muy potente; Turbo Prep, normalización, reemplazos, unión, filtrado avanzado, automatización.'</span>
+    <span class="p">],</span>
+
+    <span class="s1">'Modelado'</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s1">'Punto más fuerte; gran variedad de algoritmos clásicos y avanzados.'</span><span class="p">,</span>
+        <span class="s1">'Excelente; nodos para todo tipo de modelos y conexión con Python/R/Spark.'</span><span class="p">,</span>
+        <span class="s1">'Muy bueno; modelos arrastrar-y-soltar para experimentos rápidos.'</span><span class="p">,</span>
+        <span class="s1">'Muy fuerte; amplia librería de modelos, Auto Model, comparación automatizada.'</span>
+    <span class="p">],</span>
+
+    <span class="s1">'Evaluación'</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s1">'Métricas completas: exactitud, precisión, recall, ROC, matriz de confusión.'</span><span class="p">,</span>
+        <span class="s1">'Nodos robustos para scoring, validación cruzada, matrices y curvas ROC.'</span><span class="p">,</span>
+        <span class="s1">'Widgets visuales: Test &amp; Score, ROC, matrices de confusión.'</span><span class="p">,</span>
+        <span class="s1">'Muy avanzado; validación, curvas, ranking automático de modelos.'</span>
+    <span class="p">],</span>
+
+    <span class="s1">'Despliegue'</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s1">'Muy limitado; exportación manual de modelos en Java.'</span><span class="p">,</span>
+        <span class="s1">'Muy fuerte con KNIME Server: APIs, dashboards, jobs programados, pipelines productivos.'</span><span class="p">,</span>
+        <span class="s1">'Limitado; no está diseñado para despliegue empresarial.'</span><span class="p">,</span>
+        <span class="s1">'Excelente; despliegue en servidores, automatización, APIs, producción empresarial.'</span>
+    <span class="p">]</span>
+<span class="p">})</span>
+
+<span class="n">crisp_dm</span>
+<span class="n">crisp_dm</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">set_table_styles</span><span class="p">([</span>
+    <span class="p">{</span><span class="s1">'selector'</span><span class="p">:</span> <span class="s1">'th'</span><span class="p">,</span> <span class="s1">'props'</span><span class="p">:</span> <span class="p">[(</span><span class="s1">'background-color'</span><span class="p">,</span> <span class="s1">'#333'</span><span class="p">),</span>
+                                <span class="p">(</span><span class="s1">'color'</span><span class="p">,</span> <span class="s1">'white'</span><span class="p">),</span>
+                                <span class="p">(</span><span class="s1">'font-size'</span><span class="p">,</span> <span class="s1">'14px'</span><span class="p">),</span>
+                                <span class="p">(</span><span class="s1">'padding'</span><span class="p">,</span> <span class="s1">'8px'</span><span class="p">)]},</span>
+    <span class="p">{</span><span class="s1">'selector'</span><span class="p">:</span> <span class="s1">'td'</span><span class="p">,</span> <span class="s1">'props'</span><span class="p">:</span> <span class="p">[(</span><span class="s1">'padding'</span><span class="p">,</span> <span class="s1">'6px'</span><span class="p">),</span>
+                                <span class="p">(</span><span class="s1">'font-size'</span><span class="p">,</span> <span class="s1">'12px'</span><span class="p">),</span>
+                                <span class="p">(</span><span class="s1">'text-align'</span><span class="p">,</span> <span class="s1">'left'</span><span class="p">),</span>
+                                <span class="p">(</span><span class="s1">'border'</span><span class="p">,</span> <span class="s1">'1px solid #ccc'</span><span class="p">)]}</span>
+<span class="p">])</span>
 </pre></div>
-<p>Luego suba el archivo HTML al repositorio.</p>
 </div>
 </div>
 </div>
 </div>
-</main>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<style type="text/css">
+#T_89a9f th {
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+}
+#T_89a9f td {
+  padding: 6px;
+  font-size: 12px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+</style>
+<table id="T_89a9f">
+<thead>
+<tr>
+<th class="blank level0"> </th>
+<th class="col_heading level0 col0" id="T_89a9f_level0_col0">Herramienta</th>
+<th class="col_heading level0 col1" id="T_89a9f_level0_col1">Comprensión del negocio</th>
+<th class="col_heading level0 col2" id="T_89a9f_level0_col2">Comprensión de los datos</th>
+<th class="col_heading level0 col3" id="T_89a9f_level0_col3">Preparación de los datos</th>
+<th class="col_heading level0 col4" id="T_89a9f_level0_col4">Modelado</th>
+<th class="col_heading level0 col5" id="T_89a9f_level0_col5">Evaluación</th>
+<th class="col_heading level0 col6" id="T_89a9f_level0_col6">Despliegue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="row_heading level0 row0" id="T_89a9f_level0_row0">0</th>
+<td class="data row0 col0" id="T_89a9f_row0_col0">WEKA</td>
+<td class="data row0 col1" id="T_89a9f_row0_col1">Limitado; no posee herramientas de documentación ni flujos empresariales. Útil solo para revisar variables iniciales.</td>
+<td class="data row0 col2" id="T_89a9f_row0_col2">Exploración básica en Explorer/Preprocess: atributos, valores faltantes, distribuciones.</td>
+<td class="data row0 col3" id="T_89a9f_row0_col3">Filtros básicos: normalizar, discretizar, imputar valores, remover atributos.</td>
+<td class="data row0 col4" id="T_89a9f_row0_col4">Punto más fuerte; gran variedad de algoritmos clásicos y avanzados.</td>
+<td class="data row0 col5" id="T_89a9f_row0_col5">Métricas completas: exactitud, precisión, recall, ROC, matriz de confusión.</td>
+<td class="data row0 col6" id="T_89a9f_row0_col6">Muy limitado; exportación manual de modelos en Java.</td>
+</tr>
+<tr>
+<th class="row_heading level0 row1" id="T_89a9f_level0_row1">1</th>
+<td class="data row1 col0" id="T_89a9f_row1_col0">KNIME</td>
+<td class="data row1 col1" id="T_89a9f_row1_col1">Muy bueno; permite documentar procesos, anotar flujos, conectar con bases empresariales y entender el contexto del negocio.</td>
+<td class="data row1 col2" id="T_89a9f_row1_col2">Excelente; estadísticas detalladas, correlaciones, Data Explorer y soporte para múltiples fuentes.</td>
+<td class="data row1 col3" id="T_89a9f_row1_col3">Muy completo; limpieza, transformación, unión, manejo de fechas, strings y pipelines reproducibles.</td>
+<td class="data row1 col4" id="T_89a9f_row1_col4">Excelente; nodos para todo tipo de modelos y conexión con Python/R/Spark.</td>
+<td class="data row1 col5" id="T_89a9f_row1_col5">Nodos robustos para scoring, validación cruzada, matrices y curvas ROC.</td>
+<td class="data row1 col6" id="T_89a9f_row1_col6">Muy fuerte con KNIME Server: APIs, dashboards, jobs programados, pipelines productivos.</td>
+</tr>
+<tr>
+<th class="row_heading level0 row2" id="T_89a9f_level0_row2">2</th>
+<td class="data row2 col0" id="T_89a9f_row2_col0">Orange</td>
+<td class="data row2 col1" id="T_89a9f_row2_col1">Bueno; visualizaciones simples que ayudan a presentar el problema, aunque no es empresarial.</td>
+<td class="data row2 col2" id="T_89a9f_row2_col2">Muy fuerte en visualización interactiva: distribuciones, boxplots, scatterplots.</td>
+<td class="data row2 col3" id="T_89a9f_row2_col3">Intuitivo; widgets para imputación, discretización, selección de columnas y transformaciones.</td>
+<td class="data row2 col4" id="T_89a9f_row2_col4">Muy bueno; modelos arrastrar-y-soltar para experimentos rápidos.</td>
+<td class="data row2 col5" id="T_89a9f_row2_col5">Widgets visuales: Test &amp; Score, ROC, matrices de confusión.</td>
+<td class="data row2 col6" id="T_89a9f_row2_col6">Limitado; no está diseñado para despliegue empresarial.</td>
+</tr>
+<tr>
+<th class="row_heading level0 row3" id="T_89a9f_level0_row3">3</th>
+<td class="data row3 col0" id="T_89a9f_row3_col0">RapidMiner</td>
+<td class="data row3 col1" id="T_89a9f_row3_col1">Muy bueno; Auto Model, KPIs, análisis rápido del problema y comunicación clara para usuarios no técnicos.</td>
+<td class="data row3 col2" id="T_89a9f_row3_col2">Completo; operadores para estadística, calidad de datos, correlaciones y exploración profunda.</td>
+<td class="data row3 col3" id="T_89a9f_row3_col3">Muy potente; Turbo Prep, normalización, reemplazos, unión, filtrado avanzado, automatización.</td>
+<td class="data row3 col4" id="T_89a9f_row3_col4">Muy fuerte; amplia librería de modelos, Auto Model, comparación automatizada.</td>
+<td class="data row3 col5" id="T_89a9f_row3_col5">Muy avanzado; validación, curvas, ranking automático de modelos.</td>
+<td class="data row3 col6" id="T_89a9f_row3_col6">Excelente; despliegue en servidores, automatización, APIs, producción empresarial.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></main>
 </body>
 </html>
